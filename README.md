@@ -46,4 +46,4 @@ This code makes use of the following libraries
 
 
 ## Credit
-A credit and link back to this page [https://github.com/thoseEyes/thoseShoutouts](https://github.com/thoseEyes/thoseShoutouts) would be highly appreciated!
+99.9999999% of this code was created by the genius [https://github.com/thoseEyes/thoseShoutouts](https://github.com/thoseEyes/thoseShoutouts) I just slightly modified it to be used for the Winter Festival of Friends stream group.
