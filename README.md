@@ -1,5 +1,5 @@
 # Animated Shoutouts by [thoseEyes](https://twitch.tv/thoseeyes) 
-A simple animation that responds to the `!so` command in Twitch chat. It shows a streamers profile image and username.
+A simple animation that responds to the `!wfofso` command in Twitch chat. It shows a streamers profile image and username.
 
 NEW: Streamers can now be shouted out automatically as they enter chat by adding them to a custom list! Entire teams can also be added with ease. Check `starthere.htm` for details!
 
