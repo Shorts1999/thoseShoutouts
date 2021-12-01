@@ -10,9 +10,9 @@ async function init() {
     setColours()
 
     shoutouts = new Shoutouts({
-        contentElementId: 'content', 
+        contentElementId: 'content',
         textElementId: 'text',
-        pauseDuration: pauseDuration, 
+        pauseDuration: pauseDuration,
         rollInOutDuration: rollInOutDuration,
         animationEasing: animationEasing
     })
@@ -63,7 +63,7 @@ function onMessageHandler(target, context, msg, self) {
     // Manual Shoutout
     if (context.mod || (context['badges-raw'] != null && context['badges-raw'].startsWith('broadcaster'))) {
 
-        if (msg.startsWith('!so')) {
+        if (msg.startsWith('!wfofso')) {
             var username = msg.split(' ')[1]
 
             if (username.startsWith('@')) {
@@ -85,7 +85,7 @@ function onMessageHandler(target, context, msg, self) {
 
     const teamChannel = teamAutoList.get(context.username)
     const customChannel = customAutoList.get(context.username)
-    
+
     // Team Auto List Shoutout
     if (teamChannel !== undefined) {
         shoutout(context['display-name'], messageGenerator.team(teamChannel))
@@ -110,7 +110,7 @@ function say(msg) {
 function shoutout(twitchUsername, message) {
     getProfileImageURL(twitchUsername, function (username, imageURL) {
         shoutouts.push({
-            username: username, 
+            username: username,
             imageURL: imageURL,
             message: message,
             chatCallback: say
