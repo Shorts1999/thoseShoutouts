@@ -1,10 +1,10 @@
 // REQUIRED
 // Put your channel name here e.g., 'thoseEyes'
-const channel = 'yourChannelNameHere'
+const channel = ''
 
 // REQUIRED
 // Paste the token from the setup here e.g., 'rtyuwusdfghz1wa0lsdfgryvqasd'
-const token = 'yourTokenHere'
+const token = '
 
 // OPTIONAL
 // Paste Twitch Chat OAuth Password from here: https://twitchapps.com/tmi/
@@ -13,7 +13,7 @@ const chatPassword = ''
 
 // Template for the auto shoutout message sent to chat
 // Variables: {user} {link}
-const autoShoutoutChatMessage = '/me Go follow {user}, we love them! {link}'
+const autoShoutoutChatMessage = '/me Fellow WFOF streamer {user} is here! Go follow them at {link} !'
 
 // Template for the team shoutout message sent to chat
 // Variables: {user} {link} {team} {teamlink}
@@ -37,5 +37,7 @@ const userTextColour = '#ffffff'
 const animationEasing = 'easeOutElastic(1, .5)'
 
 // Do not touch this stuff x
-const config = { 'Client-ID': '9l8ufsalz4hqlzzl1g0mr7e38uxx1m',
-                 'Authorization': `Bearer ${token}` }
+const config = {
+    'Client-ID': '9l8ufsalz4hqlzzl1g0mr7e38uxx1m',
+    'Authorization': `Bearer ${token}`
+}
